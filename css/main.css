@@ -1,6 +1,3 @@
-body {
-  background: #3498db; }
-
 * {
   margin: 0;
   padding: 0;
@@ -61,3 +58,28 @@ nav {
 .fa-apple {
   font-size: 22px;
   color: #ddddde; }
+
+footer {
+  position: absolute;
+  width: 980px;
+  height: 90px;
+  margin: auto;
+  bottom: 0; }
+  footer a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #0096da; }
+    footer a:hover {
+      text-decoration: underline; }
+
+.container-footer-1 {
+  width: 480px;
+  font-size: 12px;
+  flex-direction: column;
+  color: #6e6e84; }
+
+.container-footer-2 {
+  width: 500px;
+  margin-top: 20px;
+  font-size: 12px;
+  text-align: right; }
